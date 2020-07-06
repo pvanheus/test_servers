@@ -14,3 +14,6 @@ The output of the `terraform apply` command is a set of IP addresses that:
 Slurm is configured on each server using the ansible playbook in `ansible/hosts.yml`. Requirements are specified in
 `ansible/requirements.yml` and can be installed with `ansible-galaxy role install -p roles -r requirments.yml`. The
 `ansible/hosts` file should be configured as per the DNS config and then it can all be applied with `ansible-playbook hosts.yml`.
+
+SARS-CoV-2 data (10 paired end samples from the SRP253798 collection), the reference genome (MN908947.3) were copied to
+each machine (not via Ansible).

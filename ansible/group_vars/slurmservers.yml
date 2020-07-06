@@ -1,5 +1,11 @@
 slurm_roles: ['controller', 'exec']
 
+slurm_nodes:
+  - name: localhost
+    CoresPerSocket: 2
+    RealMemory: 4096000
+    State: UNKNOWN
+
 slurm_config:
 #   FastSchedule: 2                      # Ignore errors if the host actually has cores != 2
   SelectType: select/cons_res
