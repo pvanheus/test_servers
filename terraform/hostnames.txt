@@ -1,0 +1,5 @@
+  192.168.10.31 host1.sanbi.ac.za
+  192.168.10.40 host2.sanbi.ac.za
+  192.168.10.23 host3.sanbi.ac.za
+  192.168.10.54 host4.sanbi.ac.za
+  192.168.10.14 host5.sanbi.ac.za
